@@ -8,7 +8,7 @@ export default function SignIn(props) {
   return (
     props.open?
     <div className='fixed top-0 bottom-0 left-0 right-0 bg-black/80 z-40'>
-        <div className='absolute top-1/4 left 1/2 sm:top-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 z-50 flex flex-col items-end gap-3'>
+        <div className='absolute top-1/4 w-full sm:w-[60%] lg:w-[50%] sm:top-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 z-50 flex flex-col items-end gap-3'>
             <MdCancel className='text-white text-xl cursor-pointer'
             onClick={props.handleModal}
             />
